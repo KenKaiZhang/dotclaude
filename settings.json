@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(mkcert -cert-file vault.crt -key-file vault.key vault.nas.local 192.168.71.20)",
+      "Bash(./gradlew app:checkDebugAarMetadata)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(./gradlew compileDebugKotlin)"
+    ],
+    "defaultMode": "auto"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/kenzhang/.claude/statusline-command.sh"
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "vercel@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "supabase@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "playwright@claude-plugins-official": true,
+    "figma@claude-plugins-official": true
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "skipAutoPermissionPrompt": true
+}

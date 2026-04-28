@@ -1,0 +1,24 @@
+# Ignore everything by default
+*
+
+# Track configuration
+!.gitignore
+!CLAUDE.md
+!settings.json
+!statusline-command.sh
+
+# Track templates and skills
+!templates/
+!templates/**
+!skills/
+!skills/**/
+!skills/**/SKILL.md
+
+# Track project memory
+!projects/
+!projects/**/
+!projects/**/memory/
+!projects/**/memory/**
+
+# Ignore local overrides (machine-specific)
+settings.local.json
