@@ -3,10 +3,7 @@
     "allow": [
       "Bash(source:*)",
       "Bash(python -m pytest:*)",
-      "Bash(mkcert -cert-file vault.crt -key-file vault.key vault.nas.local 192.168.71.20)",
-      "Bash(./gradlew app:checkDebugAarMetadata)",
-      "Bash(./gradlew assembleDebug)",
-      "Bash(./gradlew compileDebugKotlin)"
+      "Bash(mkcert -cert-file vault.crt -key-file vault.key vault.nas.local 192.168.71.20)"
     ],
     "defaultMode": "auto"
   },

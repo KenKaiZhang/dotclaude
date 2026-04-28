@@ -2,4 +2,4 @@
 - Global CLAUDE.md enforces senior engineering standards: architecture, production quality, performance, security, surgical changes, conventional commits, plan-first approach.
 - Templates at `~/.claude/templates/` for nextjs, python, supabase — copy to project root as `CLAUDE.md` for stack-specific behavior, or use `/analyze` to auto-generate.
 - `/analyze` skill explores a repo and generates a tailored project-level CLAUDE.md from templates + actual code conventions.
-- `planModeByDefault: true` in global settings — think first, code second.
+- Commit style: single-line, conventional commits, written to help Claude gain context on project progression when reading `git log`. Focus on WHAT changed and WHY, not implementation details.
