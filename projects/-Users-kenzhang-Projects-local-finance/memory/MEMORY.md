@@ -1,0 +1,2 @@
+- [Project overview](project_overview.md) — privacy-first local finance tool: FastAPI + SQLite + Ollama + Langfuse
+- [Privacy-first observability](feedback_observability_privacy.md) — Langfuse self-hosted only; never SaaS

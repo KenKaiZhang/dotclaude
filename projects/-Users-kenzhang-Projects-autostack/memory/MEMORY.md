@@ -10,3 +10,4 @@
 - [feedback_ui_preferences.md](feedback_ui_preferences.md) — Minimal UI, no full-screen canvas overlay, chat always visible
 - [feedback_planning.md](feedback_planning.md) — Ask alignment questions before diving into implementation plans
 - [feedback_exploration.md](feedback_exploration.md) — Prefer Explore subagent over direct Grep/Read for multi-file searches to preserve context
+- [feedback_commits.md](feedback_commits.md) — Commit messages are read by future Claude sessions; be specific about what + why

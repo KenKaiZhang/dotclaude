@@ -1,5 +1,6 @@
 - [Canvas LMS MCP](canvas_mcp.md) — SFSU Canvas access is wired into every Claude session via user-scope MCP; use tools directly for schoolwork questions.
-- Global CLAUDE.md enforces senior engineering standards: architecture, production quality, performance, security, surgical changes, conventional commits, plan-first approach.
+- [Senior skills](senior_skills.md) — `senior-engineer` (coding), `senior-architect` (planning), `delegate` (subagents) auto-trigger globally; CLAUDE.md is now a slim index.
 - Templates at `~/.claude/templates/` for nextjs, python, supabase — copy to project root as `CLAUDE.md` for stack-specific behavior, or use `/analyze` to auto-generate.
 - `/analyze` skill explores a repo and generates a tailored project-level CLAUDE.md from templates + actual code conventions.
 - Commit style: single-line, conventional commits, written to help Claude gain context on project progression when reading `git log`. Focus on WHAT changed and WHY, not implementation details.
+- [Obsidian vault](obsidian_vault.md) — vault at `~/Obsidian/`; default new learning notes to `Learning/` subfolder using YAML frontmatter + `- [ ]` checkboxes.

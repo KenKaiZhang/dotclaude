@@ -48,6 +48,13 @@ Sample 3-5 existing files to detect:
 - API call patterns
 - Component structure (functional, hooks usage, prop patterns)
 
+Also sample `git log -n 20 --oneline` (and a few full messages) to detect commit-message style:
+- Conventional commits (`feat:`, `fix:`, `chore(scope):` …) vs. freeform.
+- Subject style — area-prefixed (`Entities tab: drag-to-reorder, FK auto-link`), imperative, etc.
+- Whether bodies are typically used to explain *why*.
+
+If a clear style exists, capture it in the project CLAUDE.md so future sessions (and the `/commit` skill) match it.
+
 ## Step 4: Check for Existing CLAUDE.md
 
 If a CLAUDE.md already exists at the project root:
@@ -88,6 +95,7 @@ Brief one-line description of what this project is.
 
 ## Conventions
 - Detected patterns the AI should follow
+- Commit-message style (so future sessions match it)
 
 ## [Stack-Specific Best Practices]
 - Adapted from template, relevant to THIS project
@@ -98,6 +106,10 @@ Brief one-line description of what this project is.
 - `build`: how to build
 - `lint`: how to lint
 - (any other important scripts)
+
+## Catching up
+- `git log -n 20` is the primary handoff for recent project progression — read it before non-trivial work.
+- Any other long-lived context files (STATUS.md, NOTES.md, decision logs)? List them here.
 ```
 
 ## Step 7: Report

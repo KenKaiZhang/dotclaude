@@ -1,11 +1,7 @@
 {
   "permissions": {
-    "allow": [
-      "Bash(source:*)",
-      "Bash(python -m pytest:*)",
-      "Bash(mkcert -cert-file vault.crt -key-file vault.key vault.nas.local 192.168.71.20)"
-    ],
-    "defaultMode": "auto"
+    "allow": [],
+    "defaultMode": "plan"
   },
   "statusLine": {
     "type": "command",
@@ -17,7 +13,7 @@
     "typescript-lsp@claude-plugins-official": true,
     "github@claude-plugins-official": true
   },
+  "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true,
-  "skipAutoPermissionPrompt": true,
-  "effortLevel": "high"
+  "skipAutoPermissionPrompt": true
 }
